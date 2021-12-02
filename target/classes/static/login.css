@@ -1,0 +1,32 @@
+#login-form{
+margin-top:60px;
+}
+#login-form input[type="text"],#login-form input[type="password"]{
+width:40%;
+margin:7px;
+font-size:30px;
+padding:10px;
+text-align:center;
+border:5px solid green;
+transition: background,border 0.5s;
+}
+#login-form input[type="text"]:hover,#login-form input[type="password"]:hover{
+background:#d4ffd4;
+border:2px solid black;
+}
+#login-form input[type="submit"]{
+width:150px;
+margin:7px;
+font-size:30px;
+font-weight: bold;
+padding:10px;
+text-align:center;
+border:8px solid black;
+background: green;
+cursor:pointer;
+transition: background,border 0.5s;
+
+}
+#login-form input[type="submit"]:hover{
+background:#d4ffd4;
+border:2px solid black;

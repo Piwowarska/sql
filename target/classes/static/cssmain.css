@@ -1,0 +1,62 @@
+#logo{
+border: 5px solid black;
+width:600px;
+margin:0 auto;
+display:block;
+}
+#kontakt{
+border: 5px solid black;
+width:400px;
+margin:0 auto;
+display:block;
+}
+#logo img{
+width:100%
+}
+#kontakt img{
+width:100%
+}
+#menu{
+text-align: center;
+border-bottom:5px solid red;
+}
+
+
+#menu a {
+    margin:0 auto;
+    height: 200px;
+    width: 200px;
+    background: #0bdf00;
+    border: 2px solid rgba(33, 68, 72, 0.59);
+    color: rgba(0, 0, 0, 0.55);
+    text-align: center;
+    font: bold 2.8em/90px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    background: -webkit-linear-gradient(top, #0bdf00, #11610d);
+    background: -moz-linear-gradient(top, #0bdf00, #11610d);
+    background: -o-linear-gradient(top, #0bdf00, #11610d);
+    background: -ms-linear-gradient(top, #0bdf00, #11610d);
+    background: linear-gradient(top, #0bdf00, #11610d);
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 8px 0 #063c03;
+    -moz-box-shadow: 0 8px 0 #063c03;
+    box-shadow: 0 9px 0 #063c03;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background: #11610d;
+    background: -webkit-linear-gradient(top, #11610d, #0bdf00);
+    background: -moz-linear-gradient(top, #11610d, #0bdf00);
+    background: -o-linear-gradient(top, #11610d, #0bdf00);
+    background: -ms-linear-gradient(top, #11610d, #0bdf00);
+    background: linear-gradient(top, #11610d, #0bdf00);
+}
+#content{
+width:70%;
+margin:5px auto;
+text-align: center;
+}
